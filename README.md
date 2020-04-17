@@ -4,5 +4,5 @@ Simple sequential calculator using javascript
 - added support for keyboard inputs
 - efficient error handeling
 
-
+![alt text]( calci.png )
 
