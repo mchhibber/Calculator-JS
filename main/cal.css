@@ -1,40 +1,39 @@
 main{
     height: auto;
-    width: 60vw;
-    border: solid 2px black;
+    width: 50vw;
+    border: solid 2px lightskyblue;
+    box-shadow: 0 0 15px rgb(70, 143, 118);
     background-color: darkgray;
     margin: auto;
     
 }
 #cal-head{
     height: 10%;
-    width: 96%;
-    background-color: black;
+    width: 99%;
+    background-color: #52f7c0;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin:0.5rem 2%;
+    margin: 0.25% 0.5%;
 }
 #cal-head h2{
-    color: rgb(248, 240, 240);
+    color: darkslategrey;
     padding: 1.5%;
 }
 
 #display{
-    height: 20%;
-    width: 96%;
+    height: 25%;
+    width: 99%;
     background-color: rgb(236, 232, 232);
-    margin:0.5rem 2%;
+    margin: 0.25% 0.5%;
     font-size: 200%;
-    display: flex;
-   
+    display: block;
     word-wrap: break-word;
-    flex-wrap: wrap;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 #buttons{
     display: flex;
-    height: 60%;
+    height: 65%;
     width: 100%;
     flex-wrap: wrap;
     
@@ -45,12 +44,18 @@ main{
 .btn{
     width: 24%;
     height: 19%;
+    
     align-items: center;
     display: flex;
     justify-content: center;
     box-sizing: border-box;
-    border:solid 0.1px lightskyblue;
     margin: 0.25% 0.5%;
     background-color: whitesmoke;
     font-size: x-large;
+    cursor: pointer;
+    transition: 0.2s;
+}
+.btn:hover{
+    background-color: lightseagreen;
+    box-shadow: 0 0 10px rgb(7, 85, 81);
 }
